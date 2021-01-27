@@ -7,36 +7,80 @@
     <link href="images/test.ico" rel="icon">
     <style media="screen">
       .nav_bar {
-        text-align:right;
+        text-align:center;
         font-size:20px
       }
     </style>
-  </head>
 
-  <body>
     <!---NavigationBar-->
     <div class="nav_bar">
       <nav>
-        <a href="about-me.html">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
         <a href="files/Resume.pdf">Resume</a>
       </nav>
     </div>
+  </head>
 
-    <h1>Phing Taing</h1>
+  <body>
+    <main>
+      <h1>Phing Taing</h1>
 
-    <section>
-      <img src="images/profile.JPG" alt="This is me" width="409" height="544">
-      <h2>Hi, my name is <b>Phing Taing</b></h2>
-      <p>I'm a senior at UCSD majoring in Computer Engineering</p>
-    </section>
+      <section id="about">
+        <img src="images/profile.JPG" alt="This is me" width="409" height="544">
+        <h2>About Me</h2>
+        <p>
+          Hi! My name is <span style="color:pink">Phing Taing</span><br>
+          I'm a senior at the University of California, San Diego <br>
+          My major is Computer Engineering <br>
+          I'm currently looking for full time roles in <b>front-end web development</b>
+        </p>
 
-<main>
+        <h3>CourseWork</h3>
+        <ul>
+          <li>CSE 30: Computer Organization and System Programming</li>
+          <li>CSE 100: Advanced Data Structure</li>
+          <li>CSE 101: Design and Analysis of Algorithm</li>
+          <li>CSE 110: Software Engineering</li>
+          <li>CSE 120: Principle of Computer Operating System</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ol>
+          <li>Java</li>
+          <li>C, C++</li>
+          <li>MATLAB</li>
+          <li>HTML/JS/CSS</li>
+          <li>Android Studio</li>
+          <li>Unix/Linux</li>
+          <li>Vim</li>
+          <li>Git</li>
+        </ol>
+      </section>
+
+      <hr>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>These are some of the projects that I have done!</p>
+      </section>
+
+      <hr>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <h3>I would love to connect further!</h3>
+
+      </section>
+    </main>
+
+    <hr>
+
     <footer>
       <p>@Phing Taing 2021</p>
     </footer>
-</main>
 
+    <a href="experiment.html">Experiment file</a>
   </body>
 </html>
